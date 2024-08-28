@@ -3,7 +3,7 @@
 import {Route,Routes} from 'react-router-dom'
 import './App.css'
 import HomPage from './Pages/HomPage'
-import Pokedex1 from './Pages/pokedex1'
+import Pokedex1 from './Pages/Pokedex1'
 import PokeInfo54 from './Pages/PokeInfo54'
 import ProtectedRoutes from './Pages/ProtectedRoutes'
 
