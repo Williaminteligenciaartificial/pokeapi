@@ -13,12 +13,12 @@ const PokeInfo54 = () => {
     
     
   return (
-  <article className="bg-violet-950 w-screen h-screen">
-    <img 
+  <article className="bg-violet-700 w-screen h-screen">
+    <img  class=" flex items-center justify-center rounded-full bg-purple-950 border-4 border-red-500"
      src={pokemon?.sprites.other['official-artwork'].front_default}
       alt={pokemon?.name}
        />
-       <h2 className="text-white  bg-blue-900 text-center rounded-full w-auto">{pokemon?.name} </h2>
+       <h2 class="text-2xl text-amber-500 border-red-700 bg-purple-950 text-center rounded-lg">{pokemon?.name} </h2>
   </article>
   
   )
